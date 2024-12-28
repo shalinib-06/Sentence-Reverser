@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sentence-reverser</Sentence-reverser></title>
+    <title>Sentence Reverser</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<h1>Sentence Reverser!</h1>
-<div>Phrase: <input id="phrase" type="text" size="100"></div><br><br>
-<div>Filter : <input id="filter" type="text" size="100"></div><br><br>
-<div><button id="go" onclick="reverseSentence()">Go!</button></div><br><br>
-<div id="words"></div><br><br>
-<div id="count"></div><br>
-
+<body>
+<div class="container">
+    <h1>Sentence Reverser!</h1>
+    <div class="form-group">
+        <label for="phrase">Phrase:</label>
+        <input id="phrase" type="text" size="100">
+    </div>
+    <div class="form-group">
+        <label for="filter">Filter:</label>
+        <input id="filter" type="text" size="100">
+    </div>
+    <div><button id="go" onclick="reverseSentence()">Go!</button></div>
+    <div id="words"></div>
+    <div id="count"></div>
+</div>
 <script>
     function reverseSentence() {
         var phrase = document.getElementById("phrase").value;
@@ -39,8 +47,6 @@
 
         document.getElementById("words").innerHTML = result.trim(); 
         document.getElementById("count").innerHTML = count + " word(s) filtered out";
-
-        
         document.getElementById("phrase").value = "";
         document.getElementById("filter").value = "";
     }
