@@ -1,5 +1,5 @@
 # Sentence Reverser
----
+
 ## What Does This Project Do?
 
 The ***Sentence Reverser*** allows the user to:
