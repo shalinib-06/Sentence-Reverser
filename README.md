@@ -15,6 +15,6 @@ Each time the user clicks the "Go!" button, the previous results are cleared and
 - CSS
 - JavaScript
 ---
-## Screenshot of the Output
+## Screenshot 
 
 ![Sentence-Reverser Output](Output.png)
