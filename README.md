@@ -1,4 +1,6 @@
-# Sentence Reverser
+# Sentence Reverser  
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)]([https://your-deployed-link.com](https://sentence-reverser-60036982056.development.catalystserverless.in/app/index.html))
+
 
 ## What Does This Project Do?
 
