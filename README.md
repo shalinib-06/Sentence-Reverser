@@ -1,5 +1,5 @@
 # Sentence Reverser  
-Check it out here:[Sentence Reverser]([https://your-deployed-link.com](https://sentence-reverser-60036982056.development.catalystserverless.in/app/index.html))
+Check it out here:[Sentence Reverser](https://sentence-reverser-60036982056.development.catalystserverless.in/app/index.html))
 
 ## What Does This Project Do?
 
